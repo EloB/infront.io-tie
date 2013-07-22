@@ -1,0 +1,39 @@
+{
+  "name": "infront.io-tie",
+  "version": "0.0.0",
+  "description": "A extensible web proxy server middleware inspired by Connect.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EloB/infront.io-tie.git"
+  },
+  "keywords": [
+    "middleware",
+    "connect",
+    "web",
+    "proxy",
+    "http",
+    "https"
+  ],
+  "author": "Olle \"EloB\" Bröms",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EloB/infront.io-tie/issues"
+  },
+  "devDependencies": {
+    "should": "~1.2.2",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-mocha-test": "~0.6.1",
+    "grunt": "~0.4.1",
+    "grunt-release": "~0.3.5"
+  }
+}
